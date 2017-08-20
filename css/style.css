@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,600);
+.container-cust{
+  padding-top: 50px;
+}
+#home{
+  padding-top: 200px;
+}
+#navbar .nav.navbar-nav li a{
+  color: rgba(255,255,255,0.45);
+  text-transform: uppercase;
+}
+#navbar .nav.navbar-nav li a:hover{
+  color: #241F48;
+  text-transform: uppercase;
+}
+#bloco-1{
+  background-color: #241F48;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+#bloco-1 h1 {
+    color: #EA552E;
+    font-size: 90px;
+    line-height: 1;
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+.h1-span{
+  color: #fff;
+  font-size: 45px;
+  line-height: 1;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+}
+.h1-texto{
+  color: #fff;
+  font-size: 25px;
+  line-height: 1;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
+  text-transform:;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+}
+/*PORTFOLIO*/
+#portfolio{
+  height: 750px; 
+  background: #fff;
+}
+#portfolio h1{
+  font-size: 35px;
+  font-family: 'Dosis', sans-serif;
+  padding-left: 10px;
+  border-left: 8px solid tomato;
+}
+.p-desc{
+  color: #4e4e4e;
+  font-size: 19px;
+  line-height: 1;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
+  text-transform:;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+}
+.title-port{
+  color: tomato;
+  font-size: 30px;
+  line-height: 1;
+  vertical-align: middle; 
+  text-align: left;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+}
+.bl-1{}
+#portfolio .thumbnails ul li a span {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0e393b;
+    color: #F4F7F7;
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+    padding: 25.6px 0.625rem;
+}
+
+/*--- GENERAL STYLES ---*/
+body { font-size: 16px; line-height: 1.5em; font-family: 'Dosis', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Dosis', sans-serif; font-weight: 700; color: #1a1a1a; }
+.content-section { min-height: 100vh; padding-top: 70px; padding-bottom: 20px; }
+.content-section h1 { color: #9C9C9C; font-weight: 400; font-size: 30px; display: inline-block; }
+.content-section h1:after { content: ''; display: block; border-bottom: 1px solid #DFDFDF; padding-top: 3px; }
+.content-section p.lead { font-family: 'Dosis', sans-serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
+.content-section p.lead em { font-size: 14px; }
+.content-section p em { font-size: 14px;}
+.content-section p mark em { font-size: inherit;}
+.content-section img.pull-right { border:1px solid #DFDFDF; margin-top: 140px;  }
+
+@media screen and (min-width: 768px) {
+  .content-section { padding-top: 130px; }
+  .content-section h1 { font-size: 34px; }
+  .content-section p.lead { margin-bottom: 30px; }
+}
+
+@media screen and (min-width: 992px) {
+  .content-section { padding-top: 160px; }
+  .content-section h1 { font-size: 38px; }
+  .content-section h1:after { padding-top: 5px; }
+  .content-section p.lead { font-size: 21px; margin-bottom: 35px; }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-section { padding-top: 160px; }
+  .content-section h1:after { padding-top: 7px; }
+  .content-section p.lead { font-size: 22px; margin-bottom: 35px; }
+}
+
+
+/*--- NAVBAR ---*/
+.navbar { 
+  font-family: 'Montserrat', serif; 
+  background: #241F48!important;  
+  border: 1px solid transparent!important; 
+  padding: 5px;
+  margin-bottom: 0; 
+}
+.navbar-header .navbar-toggle { margin-top: 12px; }
+.navbar-header .navbar-brand { 
+  letter-spacing: -0.03em; 
+  height: 60px; 
+  padding: 30px 10px 0 10px; font-size: 36px; 
+  line-height: 0px; font-weight: 700; 
+  color: #111; white-space: nowrap;
+  border: none!important;
+}
+.navbar .navbar-brand:focus { color: #111; }
+.navbar .navbar-nav { background: transparent; float: right; margin-top: 0; }
+.navbar .navbar-nav li{ padding: 0px 10px; }
+.navbar .navbar-nav>li>a { 
+  color: #f0ad4e; 
+  padding: 0px;
+  text-shadow: 0.3px 0.3px #000;
+  font-size: 19px;
+  font-family: 'Dosis', sans-serif;}
+.navbar-default .navbar-nav>li>a.selected { color: #fff; }
+.navbar-default a.navbar-brand:hover .navbar-default .navbar-nav>li>a:hover { background-color:transparent!important; }
+.navbar-default .navbar-brand:hover { color: #E64B36; }
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent!important; 
+    border-bottom: 3px solid #f0ad4e;
+}
+#bs-example-navbar-collapse-1{padding-top: 8px;}
+@media screen and (min-width: 768px) {
+  .navbar-default { height: 100px; }
+  .navbar-header { width: 100%; }
+  .navbar-header .navbar-brand { height: 70px; padding: 40px 0 0 15px; font-size: 42px; }
+  .navbar-default .navbar-nav>li>a { padding: 0px 20px 9px 0; }
+  .navbar-default .navbar-nav>li>a:hover { background-color: transparent; color: #E64B36; }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-default { height: 120px; }
+  .navbar-header .navbar-brand { height: 80px; padding: 45px 0 0 15px; font-size: 48px; }
+  .navbar-default .navbar-nav>li>a { padding: 10px 25px 9px 0; }
+}
+
+  
+/*CONTATO*/
+body { background:#1F3944; }
+form { max-width:420px; margin:30px auto; }
+
+.feedback-input {
+  color:#e8e8e8;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC4949;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC4949;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { color: ; }
+
+.form-contato{
+  background: #241F48;
+  border-radius: 3px;
+  margin-top: 70px;
+  font-family: 'Dosis', sans-serif; 
+}
+#contato h1{
+  text-align: left;
+  padding-left: 7px;
+  font-family: 'Dosis', sans-serif;
+  border-left:8px solid #241F48;
+}
+#contato a {
+  padding: 0px 10px;
+  margin-top: 40px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  color: #bbb;
+}
+#contato a:hover{text-decoration: none; color: #241F48;}
+#contato p{font-family: 'Dosis', sans-serif; font-size: 22px;margin-top: -12px;}
+.form-contato p{
+   color: #e8e8e8;
+}
+.placeholder{color: red;}
+.footer{
+  background: ;
+  position:relative; 
+  bottom:0px; 
+  width:100%; 
+  margin-top: 10%;
+  height:30px; 
+}
+
+/*MOBILE*/
+
+.navbar-header .navbar-toggle {
+    margin-top: 12px;
+    border: 1px solid #fff;
+  }
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    border: 1px solid #fff;
+  }
+
+
+@media screen and (max-width: 320px) {
+  #bloco-1 {height: 600px;}
+  #bloco-1 h1 {font-size: 70px;}
+  #bloco-1 .h1-span {font-size: 35px;}
+  #bloco-1 #home {padding-top: 140px;}
+  /**/
+  #portfolio img{width: 260px;}
+  #portfolio .container{padding-top: 60px;}
+  #portfolio .projetos{height: 300px;}
+  #portfolio{height: 840px;}
+  /**/
+  .form-contato{padding-top: 20px; padding-bottom: 6px;margin-top: 30px;}
+  #contato .container{padding-top: 80px;}
+  .form-contato .botao{font-size: 16px;}
+}
